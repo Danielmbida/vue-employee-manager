@@ -1,44 +1,36 @@
-# vue-employee-manager
+# Vue Employee Manager
 
-This template should help get you started developing with Vue 3 in Vite.
+Mini application RH développée avec Vue 3 permettant de gérer une liste d’employés (CRUD complet) avec persistance locale.
 
-## Recommended IDE Setup
+Ce projet a été réalisé dans le cadre de ma montée en compétences sur Vue.js et afin de simuler un cas réel de gestion des ressources humaines.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Fonctionnalités
 
-## Recommended Browser Setup
+- Affichage des employés sous forme de tableau
+- Page détail employé
+- Ajout d’un employé
+- Modification via modal
+- Suppression avec confirmation
+- Stockage local (localStorage)
+- Recherche et navigation par ID
+- Interface responsive avec Bootstrap
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Tech Stack
 
-## Customize configuration
+- Vue 3 (Composition API)
+- Vue Router
+- Bootstrap 5
+- Bootstrap Icons
+- Vite
+- LocalStorage
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Aperçu
 
-## Project Setup
+![alt text](image.png)
 
-```sh
+## Installation
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
