@@ -4,6 +4,10 @@ import router from './router'
 
 const app = createApp(App)
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 app.use(router)
 
 app.mount('#app')
